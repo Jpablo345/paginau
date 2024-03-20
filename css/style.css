@@ -12,7 +12,15 @@
     --color_text-primary: #309C13;
     --color_text-secundary: #101E2C;
     --color_text-tertiary: #155404;
+    --color_text-primary: #309C13;
+    --color_text-secundary: #101E2C;
+    background-color: white;
     --lowText_font_size: 16px;
+    --text_size_title: 40px;
+    --text_title_card: 24px;
+    --text_title_cardv2: 20px;
+    --text_paragraph: 16px;
+    --box_shadow-primary: 0px 6px 50px -20px rgba(0,0,0,0.2);
 }
 
 header{

@@ -292,6 +292,184 @@ header{
    
     
 }
+/* contenedores servicios */
+
+/*Estilos Generales Cards*/
+
+.container__services-primary{
+    padding-top: 100px;
+}
+
+.cardServices__primary{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.text__services-primary{
+    max-width: 800px;
+    margin: auto;
+}
 
 
+
+.text__services-primary h1{
+    font-size: var(--text_size_title);
+    font-weight: 600;
+    color: var(--color_text-secundary);
+}
+
+.container__box-cardPrimaryServices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+
+.box__card-primary-services{
+    max-width: 350px;
+    padding: 60px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    margin: 14px;
+    transition: all 300ms;
+}
+.box__card-primary-services img{
+    width: 100%;
+}
+
+.box__card-primary-services:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+}
+
+.box__card-primary-services h2{
+    font-size: var(--text_title_card);
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.box__card-primary-services p{
+    margin-top: 20px;
+}
+
+.box__card-primary-services i{
+    margin-top: 40px;
+    font-size: 40px;
+
+}
+
+
+.container__card-primary{
+    padding-top: 100px;
+}
+
+.card__primary{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.text__card-primary{
+    max-width: 800px;
+    margin: auto;
+}
+
+.text__card-primary p{
+    color: var(--color_text-primary);
+    letter-spacing: 4px;
+    font-size: var(--text_paragraph);
+    font-weight: 500;
+}
+
+.text__card-primary h1{
+    font-size: var(--text_size_title);
+    font-weight: 600;
+    color: var(--color_text-secundary);
+}
+
+.container__box-cardPrimary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/*proyectos*/
+
+/*Estilos Generales Cards*/
+
+.container__card-primary-proyect{
+    background: var(--color_text-fourth);
+    padding-top: 100px;
+}
+
+.card__primaryProyect{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.text__card-primaryProyect{
+    max-width: 800px;
+    margin: auto;
+}
+
+.text__card-primaryProyect p{
+    color: var(--color_text-tertiary);
+    letter-spacing: 4px;
+    font-size: var(--text_paragraph);
+    font-weight: 500;
+}
+
+.text__card-primaryProyect h1{
+    font-size: var(--text_size_title);
+    font-weight: 600;
+    color: var(--color_text-tertiary);
+}
+
+.container__box-cardPrimaryProyect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+
+.box__card-primary-Proyect{
+    max-width: 350px;
+    padding: 60px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    margin: 14px;
+    transition: all 300ms;
+}
+.box__card-primary-Proyect img{
+    width: 100%;
+}
+
+.box__card-primary-Proyect:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+}
+
+.box__card-primary-Proyect h2{
+    font-size: var(--text_title_card);
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.box__card-primary-Proyect p{
+    margin-top: 20px;
+}
+
+/*End Estilos Generales Cards*/
+
+/*End Estilos Generales Cards*/
 

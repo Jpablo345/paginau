@@ -443,33 +443,140 @@ header{
 
 
 .box__card-primary-Proyect{
-    max-width: 350px;
-    padding: 60px 40px;
+    max-width: 250px;
+    padding: 40px 40px;
     border: 1px solid #e6e6e6;
     border-radius: 20px;
     margin: 14px;
     transition: all 300ms;
+    
 }
+
 .box__card-primary-Proyect img{
+
     width: 100%;
 }
 
 .box__card-primary-Proyect:hover{
     border: 1px solid transparent;
     box-shadow: var(--box_shadow-primary);
+    
 }
 
 .box__card-primary-Proyect h2{
     font-size: var(--text_title_card);
+    color: var(--color_text-tertiary);
+
     margin-top: 40px;
-    font-weight: 500;
+    font-weight: 90000;
+    
 }
 
 .box__card-primary-Proyect p{
+    color: var(--color_text-tertiary);
     margin-top: 20px;
+    font-weight: 90000;
 }
 
-/*End Estilos Generales Cards*/
+/*End proyectos*/
+
+/*inicio empleado*/
+
+.container__card-primary-empleado{
+    padding-top: 100px;
+}
+
+.card__primaryEmpleado{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.text__card-primaryEmpleado{
+    max-width: 800px;
+    margin: auto;
+}
+
+.text__card-primaryEmpleado p{
+    color: var(--color_text-tertiary);
+    letter-spacing: 4px;
+    font-size: var(--text_paragraph);
+    font-weight: 500;
+}
+
+.text__card-primaryEmpleado h1{
+    font-size: var(--text_size_title);
+    font-weight: 600;
+    color: var(--color_text-tertiary);
+}
+
+.container__box-cardPrimaryEmpleado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.box__card-primary-empleado{
+    max-width: 350px;
+    padding: 60px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    margin: 14px;
+    transition: all 300ms;
+    
+
+}
+
+.circle-img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 5px;
+    margin-left: 50px;
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 15px rgb(58, 54, 54);
+   
+
+
+}
+
+.box__card-primary-empleado:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+}
+
+.title-empleado{
+    font-size: 15px;
+    padding-bottom: 7px;
+    color: rgb(243, 250, 148);
+
+}
+
+.box__card-primary-empleado h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.box__card-primary-empleado p{
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    line-height: 3;
+    color: rgb(15, 1, 26);
+    font-size: 15px;
+
+
+}
+
+
+
+/*End empleados*/
 
 /*End Estilos Generales Cards*/
 
